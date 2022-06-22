@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+body,html{
+    margin: 0;
+    background-color: rgb(255, 249, 249);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 28px;
+    margin-left: 5px;
+    float: left;
+    border-radius: 15px;
+}
+
+nav li ul {
+    justify-content: right;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 160px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 3px solid rgb(204, 0, 0);
+    background-color: rgb(201, 0, 0);
+}
+
+nav:after {
+    clear: both;
+    display: block;
+}
+
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.nav-container ul {
+    float: right;
+    height: 200px;
+    line-height: 100px;
+    margin: 0;
+    font-family: 'Bebas Neue', 'Franklin Gothic Medium';
+    font-size: 22px;
+}
+
+
+.nav-container li {
+
+    list-style: none;
+    float: right;
+    margin: 0 15px;
+    list-style: none;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: -5s;
+}
+
+.nav-container a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+}
+
+
+#busca {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 164px;
+    justify-content: center;
+}
+
+#txtbusca {
+    border: 1.5px solid rgb(16, 16, 16);
+    background: rgba(255, 255, 255, 0.523);
+    width: 260px;
+    height: 23px;
+    margin: 0 auto;
+    padding: 5px 0 5px 5px;
+    float: left;
+    line-height: 36px;
+    border-radius: 7px;
+}
+
+
+#btnBusca {
+    background: rgb(245, 0, 0);
+    position: relative;
+    border: 0px solid rgb(12, 11, 11);
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
+    border: 0 none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#btnBusca:hover {
+    background: rgb(0, 0, 0);
+}
+
+
+
+
+.titulotexto {
+  display: flex;
+  justify-content: center;
+  font-size: 300px;
+}
+
