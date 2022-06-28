@@ -46,7 +46,7 @@ include "head.php";
 
 
     <div class="imageminicial">
-        <img src="assets/images/Modelstesla.jpg" alt="Tesla">
+        <img src="assets/images/modelstesla.jpg" alt="Tesla">
     </div>
 
 

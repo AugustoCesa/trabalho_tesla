@@ -24,7 +24,12 @@
             width: 100%;
             height: 200px;
             display: flex;
+            flex-direction: column;
+            align-content: stretch;
+            justify-content: flex-start;
+            align-items: stretch;
         }
+
 
         .imagem {
             display: flex;
@@ -32,30 +37,43 @@
             padding-right: 20px;
             align-items: center;
             padding-left: 100px;
-         
+            margin-top: 5px;
 
         }
-        .titulofoot{
+
+        .titulofoot {
             background-color: red;
+            display: flex;
+            
+        }
+
+        .titulofoot h1{
+            margin-left: 10px;
         }
 
         .corfoot ul {
-display: flex;
-list-style: none;
-font-size: 20px;
-align-items: center;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-justify-content: space-evenly
-
-
+            list-style: none;
+            display: flex;
+            list-style: none;
+            font-size: 26px;
+            justify-content: space-evenly;
+            align-content: center;
+            
         }
+
+        .corfoot li, a{
+            text-decoration: none;
+            color: white;
+        }
+
+        
+    
     </style>
 
 </head>
 
 <body>
+    <div class="posicao">
     <footer>
         <div class="titulofoot">
             <h1>Siga nos nas redes sociais</h1>
@@ -77,6 +95,7 @@ justify-content: space-evenly
 
         </div>
     </footer>
+    </div>
 </body>
 
 </html>

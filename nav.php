@@ -7,7 +7,7 @@
         <header>
             <nav>
                 <div class="nav-container">
-                    <a href="sobre.html">
+                    <a href="sobrenos.php">
                         <img src="assets/images/logo.png" alt="Logo do site" class="logo">
 
                     </a>
@@ -23,13 +23,7 @@
 
         </nav>
 
-        <div id='busca'>
-            <form action="/search" class="search" method="get">
-                <input id="txtbusca" name="q" type="text" value="" placeholder="O que procura?" />
-                <input id="btnBusca" type="submit" value="search" />
-            </form>
-        </div>
-    </div>
+   
 
 
 
