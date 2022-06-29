@@ -7,7 +7,7 @@
         <header>
             <nav>
                 <div class="nav-container">
-                    <a href="sobrenos.php">
+                    <a href="index.php">
                         <img src="assets/images/logo.png" alt="Logo do site" class="logo">
 
                     </a>

@@ -23,8 +23,10 @@ include "head.php";
 
     .texto p {
         font-size: 24px;
-        margin-left: 400px;
-        margin-right: 400px;
+        margin-left: 300px;
+        margin-right: 300px;
+        border: solid red 1px ;
+        border-radius: 15px;
     }
 
 
@@ -33,16 +35,23 @@ include "head.php";
         text-align: center;
     }
 
-    .texto img {
-        margin-left: 500px;
-        border: solid red 4px;
-        border-radius: 20px;
+
+
+    .imagemElon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
 
-    .texto span{
-        display: flex;
-        justify-content: center;
-        font-size: 18px;
+    .imagemElon img{
+        border: solid red 4px ;
+        border-radius: 20px;
+        width: 400px;
+    }
+
+    .imagemElon span{
+        font-size: 24px;
     }
 </style>
 
@@ -66,10 +75,10 @@ include "head.php";
             Os principais objetivos da Tesla são os de ampliar e melhorar os métodos de geração e armazenamento de energia existentes e oferecer cada vez mais produtos e veículos de alta performance que viabilizem a produção de energia limpa.
         </p>
 
-
-        <img src="assets/images/elon.png" alt="">
-        <span>Elon Musk</span>
-
+        <div class="imagemElon">
+            <img src="assets/images/elon.png" alt="">
+            <span>Elon Musk</span>
+        </div>
 
 
     </div>
